@@ -1,0 +1,12 @@
+print("saisir le nombre de jours")
+jour = input()
+jour = int(jour)
+print("saisir le nombre d'heures")
+heure = input()
+heure = int(heure)
+print("saisir le nombre de minutes")
+minute = input()
+minute = int(minute)
+print(minute ,"min")
+min_écouler = jour * 60 * 24 + heure * 60 + minute
+print(min_écouler, "minutes se sont écouler depuis le début du mois")
